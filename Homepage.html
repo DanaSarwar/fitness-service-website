@@ -3,20 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saya Woman's Fitness and Swimming Pool</title>
+    <title>Saya Swimming Pool & Fitness</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <nav>
-        <div class="logo">AquaFlex</div>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#amenities">Amenities</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-        </ul>
-        <div class="logo">AquaFlex</div>
+        <div class="logo">Saya Swimming Pool & Fitness</div>
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#amenities">Amenities</a></li>
@@ -34,59 +27,103 @@
     <section id="amenities">
         <h2>Our World-Class Facilities</h2>
         <div class="grid-container">
-            <div class="card">
-                <h3>High-End Gym</h3>
-                <p>Located on the second floor with a panoramic view of the pool.</p>
-            </div>
-            <div class="card">
+            <div class="card" id="pool-section">
                 <h3>Crystal Clear Pool</h3>
                 <p>Olympic sized with scheduled water changes for maximum hygiene.</p>
             </div>
-            <div class="card">
-                <h3>Steam & Sauna</h3>
-                <p>Relax your muscles after a hard workout in our luxury spa zone.</p>
-            </div>
-            <div class="card">
-                <h3>Kids' Zone</h3>
-                <p>A safe, fun environment for your little ones while you train.</p>
-            </div>
-            <div class="card">
-                <h3>Easy Parking</h3>
-                <p>Spacious, secure, and free parking for all our members.</p>
-            </div>
-        </div>
-    </section>
-    <header class="hero">
-        <h1>Dive Into Fitness</h1>
-        <p>Premium Gym & Semi-Olympic Pool — All in One Place.</p>
-        <button class="cta-btn">Join Now</button>
-    </header>
-
-    <section id="amenities">
-        <h2>Our World-Class Facilities</h2>
-        <div class="grid-container">
-            <div class="card">
+            <div class="card" id="gym-section">
                 <h3>High-End Gym</h3>
                 <p>Located on the second floor with a panoramic view of the pool.</p>
             </div>
-            <div class="card">
-                <h3>Crystal Clear Pool</h3>
-                <p>Olympic sized with scheduled water changes for maximum hygiene.</p>
-            </div>
-            <div class="card">
+            <div class="card" id="spa-section">
                 <h3>Steam & Sauna</h3>
-                <p>Relax your muscles after a hard workout in our luxury spa zone.</p>
+                <p>Relax your muscles after a hard workout in our spa zone.</p>
             </div>
-            <div class="card">
+            <div class="card" id="kids-section">
                 <h3>Kids' Zone</h3>
-                <p>A safe, fun environment for your little ones while you train.</p>
+                <p>A safe, fun environment for your little ones.</p>
             </div>
-            <div class="card">
+            <div class="card" id="parking-section">
                 <h3>Easy Parking</h3>
                 <p>Spacious, secure, and free parking for all our members.</p>
             </div>
         </div>
     </section>
 
+    <!-- Detailed sections for each amenity -->
+    <section class="amenity-detail" id="pool-detail">
+        <div class="detail-content">
+            <h2>Crystal Clear Pool</h2>
+            <p>Experience our state-of-the-art Olympic-sized swimming pool with crystal clear water maintained through our filtration system. We perform scheduled water changes and chemical balancing to ensure maximum hygiene and safety for all swimmers.</p>
+            <div class="detail-features">
+                <ul>
+                    <li>Half-Olympic-sized pool (25m x 12.5m)</li>
+                    <li>Temperature-controlled water (30°C)</li>
+                    <li>Advanced filtration system</li>
+                    <li>Lifeguard supervision</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="amenity-detail" id="gym-detail">
+        <div class="detail-content">
+            <h2>High-End Gym</h2>
+            <p>Our premium gym facility is located on the second floor, offering panoramic views of the pool below. Equipped with the latest fitness equipment from top brands, our gym provides everything you need for a complete workout experience.</p>
+            <div class="detail-features">
+                <ul>
+                    <li>Panoramic pool view</li>
+                    <li>Cardio equipment zone</li>
+                    <li>Free weights section</li>
+                    <li>Strength training machines</li>
+                    <li>Personal training available</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="amenity-detail" id="spa-detail">
+        <div class="detail-content">
+            <h2>Steam & Sauna</h2>
+            <p>Relax and rejuvenate in our spa zone featuring traditional sauna and modern steam rooms. Perfect for post-workout recovery, stress relief, and overall wellness enhancement.</p>
+            <div class="detail-features">
+                <ul>
+                    <li>Traditional sauna</li>
+                    <li>Modern steam room</li>
+                    <li>Temperature control</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="amenity-detail" id="kids-detail">
+        <div class="detail-content">
+            <h2>Kids' Zone</h2>
+            <p>A dedicated safe and fun environment for children. Our kids' zone features age-appropriate activities, and a secure play area designed for children from 4 years.</p>
+            <div class="detail-features">
+                <ul>
+                    <li>Age-appropriate play equipment</li>
+                    <li>Appropriate pool height</li>
+                    <li>Various activities</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="amenity-detail" id="parking-detail">
+        <div class="detail-content">
+            <h2>Easy Parking</h2>
+            <p>Convenient, secure, and free parking for all our members. Our spacious parking lot accommodates various vehicle types with easy access to the main entrance.</p>
+            <div class="detail-features">
+                <ul>
+                    <li>Free parking for members</li>
+                    <li>Secure and secluded</li>
+                    <li>Easy access to entrance</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
